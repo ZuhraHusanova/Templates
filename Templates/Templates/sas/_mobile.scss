@@ -1,0 +1,110 @@
+.mobile {
+    background: #E5E5E5;
+    padding-top: 110px;
+    padding-bottom: 105px;
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #323232;
+        padding-bottom: 50px;
+        max-width: 745px;
+        margin: 0 auto;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+        max-width: 745px;
+        margin: 0 auto;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+
+    &__col {
+        display: flex;
+        align-items: start;
+        max-width: 353px;
+        padding-bottom: 55px;
+    }
+
+    &__col11 {
+        width: 110px;
+        height: 110px;
+        left: 405px;
+        top: 1259px;
+        border: 1px solid #d0d0d1;
+        border-radius: 50%;
+        margin-right: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__col22 {
+        width: 90px;
+        height: 90px;
+        left: 1175px;
+        top: 1269px;
+        border: 1px solid #4985FF;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__col__right {
+        margin-top: 55px;
+    }
+
+    &__col__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+
+    &__col__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #999999;
+    }
+
+    &__btn {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #4985FF;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        width: 200px;
+        height: 45px;
+        border: none;
+    }
+    &__btns{
+        text-align: center;
+    }
+}

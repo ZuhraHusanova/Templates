@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@import"_navbar.scss";
+@import"_header.scss";
+@import"_mobile.scss";
+@import"_standart.scss";
+@import"_robot.scss";
+@import"_card.scss";
+@import"_proekt.scss";
+@import"_vidio.scss";
+@import"_menu.scss";

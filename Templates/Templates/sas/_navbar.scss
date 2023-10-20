@@ -1,0 +1,23 @@
+.navbar {
+    height: 80px;
+    border-bottom: 1px solid #A1A1A1;
+    display: flex;
+    align-items: center;
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+       li{
+        margin: 0 20px;
+       }
+        a {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+}
